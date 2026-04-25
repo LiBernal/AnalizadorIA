@@ -1,0 +1,46 @@
+================== REPORTE DE EXPERIMENTOS ==================
+
+RESUMEN GENERAL:
+-----------------
+Total de modelos analizados: 6
+Promedio de precision: 0.8933334
+Promedio de perdida: 0.22166668
+Suma total de epocas: 255
+
+MEJOR MODELO:
+-----------------
+Modelo: Transformer
+Precision: 0.98
+Perdida: 8.0e-2
+Epocas: 60
+Desempeno: Excelente
+
+CLASIFICACION DE MODELOS:
+-----------------
+Modelos Excelentes o Buenos: 4
+  - MLP (0.91) -> Bueno
+  - CNN (0.96) -> Excelente
+  - Transformer (0.98) -> Excelente
+  - LSTM (0.89) -> Bueno
+
+
+LISTA DE TODOS LOS MODELOS (Modelo, Precision):
+-----------------
+  - Perceptron: 0.78
+  - MLP: 0.91
+  - CNN: 0.96
+  - RNN: 0.84
+  - Transformer: 0.98
+  - LSTM: 0.89
+
+
+DETALLE COMPLETO:
+-----------------
+Modelo: Perceptron | Precision: 0.78 | Perdida: 0.45 | Epocas: 25 | Desempeno: Regular
+Modelo: MLP | Precision: 0.91 | Perdida: 0.18 | Epocas: 40 | Desempeno: Bueno
+Modelo: CNN | Precision: 0.96 | Perdida: 0.1 | Epocas: 50 | Desempeno: Excelente
+Modelo: RNN | Precision: 0.84 | Perdida: 0.3 | Epocas: 35 | Desempeno: Regular
+Modelo: Transformer | Precision: 0.98 | Perdida: 8.0e-2 | Epocas: 60 | Desempeno: Excelente
+Modelo: LSTM | Precision: 0.89 | Perdida: 0.22 | Epocas: 45 | Desempeno: Bueno
+
+=============================================================
